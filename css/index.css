@@ -1,16 +1,18 @@
 /* General */
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.Green-background{
+.Green-background {
     background-color: chartreuse;
 }
 
 /* Header */
-.web_ad{
+
+.web_ad {
     background-color: black;
     color: white;
     text-align: center;
@@ -19,13 +21,13 @@
     height: 30px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.navbar_item{
+.navbar_item {
     border: solid 1px black;
     width: 100%;
     height: 65px;
@@ -36,17 +38,18 @@
     transition: 0.5s;
 }
 
-.navbar_item:hover{
+.navbar_item:hover {
     background-color: black;
     color: chartreuse;
 }
 
-.navbar_item--TShop{
+.navbar_item--TShop {
     font-weight: 900;
 }
 
 /* Content CSS */
-.content_header--item{
+
+.content_header--item {
     width: 50%;
     text-align: center;
 }
