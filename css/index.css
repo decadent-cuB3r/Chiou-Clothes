@@ -59,3 +59,22 @@
     text-align: center;
 }
 
+.carousel{
+    margin: auto;
+}
+.carousel {
+    width: 90%;
+    height: 100px;
+    background-color: blue;
+}
+
+.carousel-img {
+    width: 20%;
+    height: 500px;
+}
+
+/* Slick */
+
+.slick-prev, .slick-next{
+    background-color: black !important;
+}
