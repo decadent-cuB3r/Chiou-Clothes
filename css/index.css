@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.seperate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .Green-background {
     background-color: chartreuse;
 }
